@@ -1,0 +1,180 @@
+<!-- =========================
+PROJECT STRUCTURE (PROFESIONAL)
+========================= -->
+
+project/
+│── public/
+│   │── favicon.ico
+│   │── thumbnail.png
+│
+│── src/
+│   │── css/
+│   │   │── style.css
+│   │
+│   │── js/
+│   │   │── script.js
+│   │
+│   │── assets/
+│   │   │── images/
+│   │   │── icons/
+│
+│── index.html
+│── README.md
+
+
+<!-- =========================
+FILE: index.html
+========================= -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO & Preview -->
+    <meta property="og:title" content="CV Profesional - Nama Anda">
+    <meta property="og:description" content="Curriculum Vitae profesional untuk melamar pekerjaan">
+    <meta property="og:image" content="public/thumbnail.png">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="public/favicon.ico">
+
+    <title>CV Profesional - Nama Anda</title>
+
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Nama Lengkap</h1>
+    <p>Posisi yang Dilamar</p>
+</header>
+
+<section id="profil">
+    <h2>Profil</h2>
+    <p>Deskripsi singkat tentang diri Anda.</p>
+</section>
+
+<section id="pendidikan">
+    <h2>Pendidikan</h2>
+    <ul>
+        <li>S1 - Universitas XYZ (2018 - 2022)</li>
+    </ul>
+</section>
+
+<section id="pengalaman">
+    <h2>Pengalaman Kerja</h2>
+    <ul>
+        <li>
+            <strong>Nama Perusahaan</strong> - Posisi (2022 - Sekarang)
+            <p>Deskripsi pekerjaan.</p>
+        </li>
+    </ul>
+</section>
+
+<section id="skill">
+    <h2>Keahlian</h2>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+    </ul>
+</section>
+
+<section id="kontak">
+    <h2>Kontak</h2>
+    <p>Email: email@domain.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Nama Anda</p>
+</footer>
+
+<script src="src/js/script.js"></script>
+</body>
+</html>
+
+
+<!-- =========================
+FILE: src/css/style.css
+========================= -->
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+}
+
+header {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #1f2937;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1f2937;
+    color: white;
+}
+
+
+<!-- =========================
+FILE: src/js/script.js
+========================= -->
+// Simple animation
+window.addEventListener("load", () => {
+    document.body.style.opacity = 1;
+});
+
+
+<!-- =========================
+FILE: README.md
+========================= -->
+# CV Website Profesional (Struktur Modern)
+
+Template CV berbasis web dengan struktur folder profesional seperti project frontend modern.
+
+## Struktur Folder
+```
+project/
+│── public/        # file publik (favicon, thumbnail)
+│── src/           # source code utama
+│   │── css/
+│   │── js/
+│   │── assets/
+│
+│── index.html
+│── README.md
+```
+
+## Fitur
+- Struktur clean (mirip project industri)
+- SEO + Open Graph (thumbnail share)
+- Favicon di tab browser
+- Siap deploy
+
+## Cara Pakai
+1. Edit file index.html
+2. Ubah isi CV sesuai data
+3. Ganti gambar di folder public/
+4. Deploy ke hosting
+
+## Rekomendasi Hosting
+- GitHub Pages
+- Netlify
+- Vercel
+
+## Catatan
+Struktur ini scalable, jadi bisa dikembangkan ke React / Next.js nanti.
